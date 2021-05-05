@@ -23,7 +23,6 @@ public class Bullet : MonoBehaviour{
     }
 
     private void Start(){
-        bulletPool = GetComponentInParent<BulletPooling>();
         StartOverride();
     }
 
